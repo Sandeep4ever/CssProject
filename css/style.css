@@ -1,5 +1,6 @@
 body{
-    font-size: 20px;
+    font-size: 1.5rem; 
+    /* 20px */
     margin: 0;
    text-align: center;
    font-family:'merriweather',serif; 
@@ -12,19 +13,19 @@ body{
 h1{
     margin: 0px;
      position: relative;
-     left:  25px;   
+     left:  1.56rem;   
      line-height: 2px;
 }
 hr{
     border: dotted  #20e9e9;
     border-bottom: none;
    
-    margin: 50px auto;
+    margin: 3rem auto;
 }
 
 .top-container{
    position: relative; 
-   padding: 100px;
+   padding: 6.25rem;
     background-color:#b9fffc;
    
 }
@@ -37,46 +38,52 @@ hr{
 }
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 18rem;
+    /* 300px */
 }
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 50px;
-    bottom: 300px;
+    right: 18rem;
+    /* 300px */
+    top: 3rem;
+    /* 50px */
+    bottom: 18rem;
    
 }
 .profile{
     border-radius: 50%;
 }
 .html{
-   width: 200px;
-   height: 200px;
+   width: 12.5rem;
+   /* 200px both */
+   height: 12.5rem;
    float: left;
-  margin: 10px;
+  margin: 0.625rem;
+  /* 10px */
   
 }
 .js{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     float: right;
-    margin: 10px;
+    margin:  0.625rem;
 }
 .skill-row{
-    width: 600px;
-    margin: 50px auto 50px auto;
+    width: 37.5rem;
+    /* 600px */
+    margin: 3rem auto 3rem auto;
     text-align: left;
     line-height:2;
    
 
 }
 .footer-link{
-    width: 50px;
+    width: 3rem;
 }
 .contact-message{
     line-height:2;
-    width: 300px;
-    margin: 40px auto;
+    width: 18rem;
+    margin: 2.5rem auto;
 }
 .btn {
     background: #11CDD4;
@@ -118,3 +125,10 @@ hr{
     border-radius: 20px;
     text-decoration: none;
  }
+
+ @media(max-width:900px){
+    html{font-size:55%}
+}
+@media(max-width:800px){
+    html{font-size:45%}
+}
